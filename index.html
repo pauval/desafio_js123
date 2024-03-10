@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio 2</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+  <h2>Ejercicio 1 - Imagen con borde</h1>
+  <div id="container">
+    <img id="myImage" src="./assets/img/imagen1.png" alt="Imagen">
+  </div>
+  
+  <h2>Ejercicio 2 - Pedir Stickers</h1>
+  <div id="stickerContainer">
+    <div class="sticker">
+      <img id="sticker1" src="./assets/img/sticker1.jpg" alt="Sticker 1">
+      <input type="number" id="quantity1" placeholder="Cantidad">
+      <p class="info">*Ingresa valores entre 1 y 10</p>
+    </div>
+    <div class="sticker">
+      <img id="sticker2" src="./assets/img/sticker2.jpg" alt="Sticker 2">
+      <input type="number" id="quantity2" placeholder="Cantidad">
+      <p class="info">*Ingresa valores entre 1 y 10</p>
+    </div>
+    <div class="sticker">
+      <img id="sticker3" src="./assets/img/sticker3.jpg" alt="Sticker 3">
+      <input type="number" id="quantity3" placeholder="Cantidad">
+      <p class="info">*Ingresa valores entre 1 y 10</p>
+    </div>
+  </div>
+  
+  <div class="centered">
+    <p id="result"></p>
+    <button id="validateButton">Validar</button>
+  </div>
+
+  <h2>Ejercicio 3 - Verificar Contraseña</h1>
+  <div class="password-container">
+    <select id="password1">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+    </select>
+    <select id="password2">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+    </select>
+    <select id="password3">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+    </select>
+    <button id="verifyPasswordButton">Ingresar</button>
+    <p id="passwordResult">  </p>
+  </div>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
+
